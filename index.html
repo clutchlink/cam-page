@@ -30,26 +30,68 @@
 			<a href="#pricing" class="cell black ph2 pv1">Downloads</a>
 			<a href="#features" class="cell black ph2 pv1">Features</a>
 			<!-- <a href="#open" class="cell black ph2 pv1">Source code</a> -->
-			<a href="docs/" class="cell black ph2 pv1">Docs</a>
+			<a href="https://danielc.dev/camlib-docs/" class="cell black ph2 pv1">Docs</a>
 		</div>
 
 		<div class="vc c white light">
-			<h1>A better way to control cameras and DSLRs</h1>
-			<p>Cam is a framework and Android app that can remotely control your camera.</p>
+			<h1>A better way to control digital cameras</h1>
+			<p>Cam is an app that can remotely control your camera.</p>
 		</div>
 	</div>
-	
+
 	<div class="c">
-		<h1 class="tc">News</h1>
 		<div class="card">
-			<h4>August 2023: Rewrite, rename</h4>
-			<p>In light of <a href="https://x.com/">companies rebranding to shorter names</a>, CamControl will now be called Cam. The frontend of the app is also being rewritten and will be published shortly. Improvements include:</p>
-			<ul>
-			<li>Redesigned UI - much more responsive</li>
-			<li>Advanced File manager</li>
-			<li>Lua scripts and plugins - run on demand, or automatically</li>
-			<li>Use much less RAM and CPU resources</li>
-			</ul>
+			<h4>Why another camera controller app?</h4>
+			<p>Camera software sucks. Every app I've used is always missing features, and it's always buggy and broken.
+			Cam is an attempt to fix this.</p>
+			<h4>How?</h4>
+			<p>Cam isn't just a glorified liveview and remote capture. You have <i>total freedom</i> to do anything.
+			Want an astrophotography mode? <i>Cam has it.</i> Want
+			a timelapse mode? Cam has it. No, these aren't baked-in features - you can customize nearly <i>every</i> aspect of a mode,
+			even if you don't know how to code. And if you do, you can create your own modes from scratch.</p>
+		</div>
+	</div>
+
+	<div class="c" id="features">
+		<div class="card">
+		<h1>Features:</h1>
+		<ul>
+			<li>Support for Canon EOS cameras</li>
+			<li>Liveview with zoom</li>
+			<li>Profiles - preconfigured settings & parameters for each camera / workflow</li>
+			<li>Get & Set ISO, aperture, shutter, speed, white balance</li>
+			<li>Take pictures and perform bulb shots</li>
+			<li>Preview and download captured images</li>
+			<li>Manually and precisely focus lens</li>
+			<li>File manager and photo gallery</li>
+			<li>Basic Scripting API - Lua and Javascript</li>
+			<li>Custom mode API - open custom menus, add buttons, and actions on the fly</li>
+			<li>EOS / Magic Lantern integration</li>
+		</ul>
+		<h4>Planned Features:</h4>
+		<ul>
+			<li>RAM Capture (capture, preview, and discard)</li>
+			<li>Use phone as external microphone</li>
+			<li>GPS & clock sync</li>
+			<li>Customizable Zebras/histogram overlays</li>
+			<li>Support for Sony cameras</li>
+		</ul>
+		</div>
+	</div>
+
+	<!-- <div class="c"> -->
+		<!-- <div class="card"> -->
+			<!-- <h4>AI Integration</h4> -->
+			<!-- <p>Cam has features to integrate AI training and recognition blah blah</p> -->
+		<!-- </div> -->
+	<!-- </div> -->
+
+	<div class="c">
+		<div class="card">
+			<h4>Virtual Camera</h4>
+			<p>What makes Cam unique is that it's built from the ground up using not just a real camera, but a virtual camera emulator
+			tested against Canon's software. This not only improves reliability greatly, but enables regression and unit-testing.
+			It's available for free for anybody to use and improve camera software. <a href="https://github.com/petabyt/vusb">Read more</a></p>
 		</div>
 	</div>
 
@@ -57,66 +99,45 @@
 		<div class="card">
 			<h4>Camera as a Service (CaaS)</h4>
 			<p>Remotely control a camera from anywhere in the world with a rich API over the web.
-			Available for astronomy and long-term timelapse.</p>
-			<b>Coming Soon</b>
-		</div>
-	</div>
-
-	<div class="c" id="features">
-		<div class="card">
-		<h1>App Features</h1>
-		<ul>
-			<li>Support for modern Canon EOS cameras</li>
-			<li>Canon Liveview + custom Magic Lantern liveview</li>
-			<li>Get & Set ISO, aperture, shutter, speed, format, white balance</li>
-			<li>Take pictures and perform bulb shots</li>
-			<li>Download captured images</li>
-			<li>Manually and precisely focus lens</li>
-			<li>Basic File manager</li>
-			<li>Profiles - preconfigured settings & parameters for each camera / workflow</li>
-			<li>Scripting API with Javascript</li>
-		</ul>
-		<p class="sub">Planned Features:</p>
-		<ul>
-			<li>RAM Capture (capture, preview, and discard)</li>
-			<li>Support for Sony cameras</li>
-			<li>Use phone as external microphone</li>
-			<li>Clock sync</li>
-			<li>GPS Sync</li>
-			<li>Customizable Zebras/histogram overlays</li>
-		</ul>
+			Available for astronomy and long-term timelapse.<br>
+			<b>Coming Soon</b></p>
 		</div>
 	</div>
 
 	<div class="c tc" id="pricing">
-<!--
-		<h1>Pricing</h1>
+		<h1>Downloads</h1>
 
 		<div class="row">
 			<div class="card 6 col">
 				<h3 class="mb0">Android</h3>
-				<p><i>$3.99</i></p>
-				<a href="https://play.google.com/store/apps/details?id=dev.petabyt.camcontrol"><img width="150" src="google-play-badge.png"></a>
-			</div>
-			<div class="card 6 col">
-				<h3 class="mb0">Linux</h3>
-				<p><i>Free</i></p>
-				<a href="https://github.com/basedtech/camcontrol-linux">Download</a>
+				<p><i>$3.99</i><br>
+				Coming Soon</p>
+				<!--<a href="https://play.google.com/store/apps/details?id=dev.petabyt.camcontrol"><img width="150" src="google-play-badge.png"></a>-->
 			</div>
 		</div>
 		
 		<p><a href="https://github.com/petabyt/ptpview/releases/tag/0.1.0">Download custom liveview v1 for Magic Lantern</a></p>
 
 		<div class="card m2">
-			<h3 class="mb0">CamControl Lite</h3>
+			<h3 class="mb0">Cam Intervalometer</h3>
 			<p>The Cam Intervalometer is a free app for Android based on CamControl. It has no ads, in-app purchases,
-				or missing features.</p>
+			or missing features.</p>
 			
 			<div class="cell">
-				<a href="https://play.google.com/store/apps/details?id=dev.petabyt.caminterv"><img width="150" src="google-play-badge.png"></a>
+				<!-- <a href="https://play.google.com/store/apps/details?id=dev.petabyt.caminterv"><img width="150" src="google-play-badge.png"></a> -->
+				Coming Soon
 			</div>
 		</div>
-		-->
+
+		<div class="card m2">
+			<h3 class="mb0">Camit</h3>
+			<p>Camit is a free and open-source Linux/Windows app. It is primarly built to be a fast and painless liveview
+			and CLI utility, with scripting integration. Scripts are perfectly compatible with the mobile app.</p>
+			
+			<div class="cell">
+				<a href="https://github.com/petabyt/camit">Coming Soon</a>
+			</div>
+		</div>
 	</div>
 
 	<hr>
