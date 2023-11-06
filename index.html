@@ -42,13 +42,18 @@
 	<div class="c">
 		<div class="card">
 			<h4>Why another camera controller app?</h4>
-			<p>Camera software sucks. Every app I've used is always missing features, and it's always buggy and broken.
-			Cam is an attempt to fix this.</p>
-			<h4>How?</h4>
-			<p>Cam isn't just a glorified liveview and remote capture. You have <i>total freedom</i> to do anything.
+			<p>In my years of using a DSLR, I've noticed two common problems with 3rd-party controller apps:</p>
+			<ul>
+				<li>Not enough features, not enough customization</li>
+				<li>The software is buggy, broken, and slow.</li>
+			</ul>
+			<h4>How do you fix these problems?</h4>
+			<p>Cam isn't just a glorified remote shutter app. You have <i>total freedom</i> to do anything.
 			Want an astrophotography mode? <i>Cam has it.</i> Want
 			a timelapse mode? Cam has it. No, these aren't baked-in features - you can customize nearly <i>every</i> aspect of a mode,
 			even if you don't know how to code. And if you do, you can create your own modes from scratch.</p>
+			<p>The code behind Cam also has a complete regression testing system based on a <a href="https://github.com/petabyt/vcam">virtual camera</a>,
+			which also helps with rapid prototyping.</p>
 		</div>
 	</div>
 
@@ -59,19 +64,19 @@
 			<li>Support for Canon EOS cameras</li>
 			<li>Liveview with zoom</li>
 			<li>Profiles - preconfigured settings & parameters for each camera / workflow</li>
-			<li>Get & Set ISO, aperture, shutter, speed, white balance</li>
-			<li>Take pictures and perform bulb shots</li>
+			<li>Rich scripting API - add buttons and scripts to the app to do whatever you want</li>
+			<li>Get & Set ISO, aperture, shutter speed, white balance</li>
+			<li>Take pictures and BULB shots</li>
 			<li>Preview and download captured images</li>
 			<li>Manually and precisely focus lens</li>
 			<li>File manager and photo gallery</li>
-			<li>Basic Scripting API - Lua and Javascript</li>
-			<li>Custom mode API - open custom menus, add buttons, and actions on the fly</li>
-			<li>EOS / Magic Lantern integration</li>
+			<li>Magic Lantern & CHDK integration</li>
+			<li></li>
 		</ul>
 		<h4>Planned Features:</h4>
 		<ul>
-			<li>RAM Capture (capture, preview, and discard)</li>
-			<li>Use phone as external microphone</li>
+			<li>Capture and preview photos</li>
+			<li>Use Android device as external microphone</li>
 			<li>GPS & clock sync</li>
 			<li>Customizable Zebras/histogram overlays</li>
 			<li>Support for Sony cameras</li>
@@ -83,15 +88,6 @@
 		<!-- <div class="card"> -->
 			<!-- <h4>AI Integration</h4> -->
 			<!-- <p>Cam has features to integrate AI training and recognition blah blah</p> -->
-		<!-- </div> -->
-	<!-- </div> -->
-
-	<!-- <div class="c"> -->
-		<!-- <div class="card"> -->
-			<!-- <h4>Virtual Camera</h4> -->
-			<!-- <p>What makes Cam unique is that it's built from the ground up using not just a real camera, but a virtual camera emulator -->
-			<!-- tested against Canon's software. This not only improves reliability greatly, but enables regression and unit-testing. -->
-			<!-- It's available for free for anybody to use and improve camera software. <a href="https://github.com/petabyt/vusb">Read more</a></p> -->
 		<!-- </div> -->
 	<!-- </div> -->
 
@@ -142,8 +138,8 @@
 
 	<hr>
 	<div class="c">
-		Copyright (C) 2022-2023 by Clutchlink Technologies<br>
-		'Cam' and Clutchlink Technologies are not affiliated with Canon or any other group
+		Copyright (C) 2022-2023 Cam by Clutchlink Technologies<br>
+		'Cam' is not affiliated with Canon
 	</div>
 </body>
 </html>
