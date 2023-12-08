@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="lit-dark.css">
 	<link rel="stylesheet" type="text/css" href="util.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="CamControl is an android app that can control your camera or DSLR.">
+	<meta name="description" content="Cam is an android app that can control your camera or DSLR.">
 	<meta name="author" content="Daniel Cook">
 	<style>
 		.bg {
@@ -42,18 +42,20 @@
 	<div class="c">
 		<div class="card">
 			<h4>Why another camera controller app?</h4>
-			<p>In my years of using a DSLR, I've noticed two common problems with 3rd-party controller apps:</p>
+			<p>In my years of using a digital camera, I've noticed two common problems with 3rd-party WiFi controller apps:</p>
 			<ul>
-				<li>Not enough features, not enough customization</li>
-				<li>The software is buggy, broken, and slow.</li>
+				<li>Not enough features and no scripting support</li>
+				<li>The software is buggy, broken, and slow</li>
 			</ul>
 			<h4>How do you fix these problems?</h4>
+			<p>Cam has 2 things that make it unique. First, it's built from the ground up with a complete scripting API that allows you
+			to automate workflows, try experimental features, and even customize the UI.</p>
 			<p>Cam isn't just a glorified remote shutter app. You have <i>total freedom</i> to do anything.
-			Want an astrophotography mode? <i>Cam has it.</i> Want
-			a timelapse mode? Cam has it. No, these aren't baked-in features - you can customize nearly <i>every</i> aspect of a mode,
+			Cam has dozens of built-in Lua scripts to automate lots of different workflows. Astrophotogaphy mode, focus peaking, timelapse scripts, you name it. 
+			These aren't baked-in features - you can customize <i>every</i> aspect of a script,
 			even if you don't know how to code. And if you do, you can create your own modes from scratch.</p>
-			<p>The code behind Cam also has a complete regression testing system based on a <a href="https://github.com/petabyt/vcam">virtual camera</a>,
-			which also helps with rapid prototyping.</p>
+			<p>Second, Cam is made from the ground-up by testing against a <a href="https://github.com/petabyt/vcam">virtual camera</a>,
+			which also helps with rapid prototyping and improves reliability.</p>
 		</div>
 	</div>
 
@@ -71,7 +73,6 @@
 			<li>Manually and precisely focus lens</li>
 			<li>File manager and photo gallery</li>
 			<li>Magic Lantern & CHDK integration</li>
-			<li></li>
 		</ul>
 		<h4>Planned Features:</h4>
 		<ul>
@@ -107,7 +108,7 @@
 			<div class="card 6 col">
 				<h3 class="mb0">Android</h3>
 				<p><i>$3.99</i><br>
-				Coming Soon</p>
+				Coming Soon (2024)</p>
 				<!--<a href="https://play.google.com/store/apps/details?id=dev.petabyt.camcontrol"><img width="150" src="google-play-badge.png"></a>-->
 			</div>
 		</div>
